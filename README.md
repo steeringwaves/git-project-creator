@@ -9,10 +9,19 @@ If the repo contains either `.gpc.yml` or `gpc.yaml` then the file is parsed to 
 
 ## Installation
 
+Ensure that you have a supported version of Go properly installed and setup. You can find the minimum required version of Go in the go.mod file.
+
+You can then install the latest release globally by running:
+
 ```sh
-go install -v github.com/steeringwaves/git-project-creator/cmd/gpc@latest
+go install github.com/steeringwaves/git-project-creator/v1/cmd/gpc@latest
 ```
 
+Or you can install into another directory:
+
+```sh
+env GOBIN=/bin go install github.com/steeringwaves/git-project-creator/v1/cmd/gpc@latest
+```
 
 ## Example configuration file
 
