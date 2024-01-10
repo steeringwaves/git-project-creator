@@ -14,13 +14,13 @@ Ensure that you have a supported version of Go properly installed and setup. You
 You can then install the latest release globally by running:
 
 ```sh
-go install github.com/steeringwaves/git-project-creator/v1/cmd/gpc@latest
+go install github.com/steeringwaves/git-project-creator/cmd/gpc@latest
 ```
 
 Or you can install into another directory:
 
 ```sh
-env GOBIN=/bin go install github.com/steeringwaves/git-project-creator/v1/cmd/gpc@latest
+env GOBIN=/bin go install github.com/steeringwaves/git-project-creator/cmd/gpc@latest
 ```
 
 ## Example configuration file

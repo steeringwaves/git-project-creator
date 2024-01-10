@@ -12,7 +12,7 @@ import (
 	"strings"
 	"text/template"
 
-	"github.com/steeringwaves/gpc/gorecurcopy"
+	"github.com/steeringwaves/git-project-creator/gorecurcopy"
 	"gopkg.in/yaml.v2"
 )
 
